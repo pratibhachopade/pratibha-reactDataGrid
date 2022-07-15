@@ -1,0 +1,51 @@
+{
+  "name": "reactdatagrid-package-reusable",
+  "version": "0.0.2",
+  "description": "Reusable React Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc && cp package.json README.md ./dist"
+  },
+  "keywords": [
+    "accordian,alert,calendar,charts,checks,data-table,download-file,indeterminate-checkbox,input,loading,multi-select,pipes,radio,select,textarea"
+  ],
+  "author": "yash-team",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.14",
+    "@types/react-datepicker": "^4.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@inovua/reactdatagrid-community": "^4.16.2",
+    "@tanstack/react-table": "^0.0.1-alpha.0",
+    "@types/d3": "^7.4.0",
+    "@types/react-table": "^7.7.12",
+    "ag-grid-community": "^27.3.0",
+    "ag-grid-enterprise": "^27.3.0",
+    "ag-grid-react": "^27.3.0",
+    "bootstrap": "^5.1.3",
+    "d3": "^7.4.4",
+    "export-to-csv": "^0.2.1",
+    "highcharts": "^10.1.0",
+    "highcharts-react-official": "^3.1.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "multiselect-react-dropdown": "^2.0.25",
+    "react-bootstrap": "^2.4.0",
+    "react-datepicker": "^4.8.0",
+    "react-loading-dot": "^1.0.6",
+    "react-select": "^5.3.2",
+    "react-table": "^7.7.0",
+    "sass": "^1.52.3"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.0.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
